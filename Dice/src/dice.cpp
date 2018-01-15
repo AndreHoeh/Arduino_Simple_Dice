@@ -1,14 +1,13 @@
 #include "dice.h"
 
 #include <stdio.h>
-#include <string.h>
 #include "Arduino.h"
 
 Dice::Dice(unsigned char topLeft, unsigned char topRight, 
         unsigned char lowerRight, unsigned char lowerLeft, 
         unsigned char midLeft, unsigned char midRight, 
         unsigned char midMid) {
-  this->showTime = 1000;
+  this->displayTime = 1000;
   
   init(topLeft, topRight, lowerRight, lowerLeft, 
       midLeft, midRight, midMid);
@@ -35,8 +34,8 @@ void Dice::init(unsigned char p1, unsigned char p2,
   pinMode(ledPins[6], OUTPUT);
 }
 
-void Dice::setShowTime(int t){
-  this->showTime = t;
+void Dice::setDisplayTime(int t){
+  this->displayTime = t;
 }
 
 void Dice::reset(){
@@ -98,28 +97,34 @@ void Dice::showNumber(int n) {
   reset();
   switch (n) {
     case 1:
+      animation(2);
       show1();
-      delay(showTime);
+      delay(displayTime);
       break;
     case 2:
+      animation(2);
       show2();
-      delay(showTime);
+      delay(displayTime);
       break;
     case 3:
+      animation(2);
       show3();
-      delay(showTime);
+      delay(displayTime);
       break;
     case 4:
+      animation(2);
       show4();
-      delay(showTime);
+      delay(displayTime);
       break;
     case 5:
+      animation(2);
       show5();
-      delay(showTime);
+      delay(displayTime);
       break;
     case 6:
+      animation(2);
       show6();
-      delay(showTime);
+      delay(displayTime);
       break;
     default:
       break;
@@ -127,12 +132,12 @@ void Dice::showNumber(int n) {
   reset();
 }
 
-void Dice::animation() {
+void Dice::animation(int count) {
   int i = 0;
   reset();
   digitalWrite(ledPins[6], HIGH);
-  delay(100);
-  while(i < 10) {
+  delay(50);
+  while(i < count) {
     digitalWrite(ledPins[0], HIGH);
     digitalWrite(ledPins[4], LOW);
     delay(100);
