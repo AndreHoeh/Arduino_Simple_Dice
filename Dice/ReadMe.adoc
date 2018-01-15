@@ -1,0 +1,51 @@
+:Author: Andreh
+:Email: andre.foxtrott@gmail.com
+:Date: 20/12/2017
+:Revision: version#01
+:License: Public Domain
+
+= Project: {dice}
+
+This library includes simple methods to controll LEDs in an dice like arragement. 
+
+== Step 1: Installation
+Simply drop this library folder into your Arduino librarys folder.
+
+== Step 2: Assemble the circuit
+
+Connect 7 LEDs to your Arduino and arrange them in an dice like layout.
+Every LED needs a resistor connected in series.
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board.
+
+=== Folder structure
+
+....
+ sketch123                => Arduino sketch folder
+  ├── sketch123.ino       => main Arduino file
+  ├── schematics.png      => (optional) an image of the required schematics
+  ├── layout.png          => (optional) an image of the layout
+  └── ReadMe.adoc         => this file
+....
+
+
+=== Contributing
+To contribute to this project please contact Andreh <andre.foxtrott@gmail.com>
+
+=== BOM
+Add the bill of the materials you need for this project.
+
+|===
+| ID | Part name      | Part number | Quantity
+| R1 | 470 Resistor   | xxx         | 7       
+| L1 | Red LED        | 1337        | 7        
+| A1 | Arduino Zero   | ATMEGA328p  | 1        
+|===
+
+
+=== Help
+This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
+If you need help you can search the http://www.methods.co.nz/asciidoc[AsciiDoc homepage]
+or consult the http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]

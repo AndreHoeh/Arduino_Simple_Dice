@@ -1,0 +1,1 @@
+/* * Dice Beispielprogramm fuer die Dice Library */#include "dice.h"Dice d(7,4,9,6,8,5,2);unsigned char buttonState = 0;void setup() {  d.animation();  // Knopf  pinMode(3, INPUT_PULLUP);  // Random Seed setzen  randomSeed(analogRead(0));}void loop() {  buttonState = digitalRead(3);  if (buttonState == LOW) {    d.showNumber(random(1,8));  }}
