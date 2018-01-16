@@ -60,7 +60,6 @@ class Dice {
   void animation(int count);
   
   private:
-  
   unsigned int displayTime;
   unsigned char ledPins[7];
 };
