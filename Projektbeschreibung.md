@@ -4,10 +4,15 @@ In diesem Projekt soll ein Digitaler Würfel gebaut werden.
 Hierzu entsteht eine Arduino Bibliothek, mit der ein Würfelobjekt erstellt werden kann.
 Mit 7 LEDs und Widerständen kann dann, mit einem Arduino, ein Würfel simuliert werden.
 
-## Zufall
+## Pseudo Zufall
 
 Um eine zufällige Zahl zu erzeugen, verwendet der Arduino die standard Funktion random().
+Dazu mehr hier:
+https://www.arduino.cc/reference/en/language/functions/random-numbers/random/
 Bei jedem Programmstart wird der Randomseed neu generiert. 
+Dazu mehr hier:
+https://www.arduino.cc/reference/en/language/functions/random-numbers/randomseed/
+
 
 ## Taster entprellen
 
