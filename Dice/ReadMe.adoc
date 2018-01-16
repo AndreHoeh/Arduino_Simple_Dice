@@ -1,7 +1,7 @@
 :Author: Andreh
 :Email: andre.foxtrott@gmail.com
 :Date: 20/12/2017
-:Revision: version#01
+:Revision: version#02
 :License: Public Domain
 
 = Project: {dice}
@@ -32,7 +32,6 @@ Add the bill of the materials you need for this project.
 | L1 | Red LED        | 1337        | 7        
 | A1 | Arduino Zero   | ATMEGA328p  | 1        
 |===
-
 
 === Help
 This document is written in the _AsciiDoc_ format, a markup language to describe documents. 
