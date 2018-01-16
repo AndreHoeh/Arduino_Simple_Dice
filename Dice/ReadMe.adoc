@@ -6,7 +6,7 @@
 
 = Project: {dice}
 
-This library includes simple methods to controll LEDs in an dice like arragement. 
+This library includes simple methods to control LEDs in an dice like arragement. 
 
 == Step 1: Installation
 Simply drop this library folder into your Arduino librarys folder.
