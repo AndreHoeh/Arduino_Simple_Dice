@@ -10,4 +10,4 @@ Wer dieses Projekt nachbauen will sollte erst sicherstellen, dass er die folgend
 
 ## Der Aufbau
 
-Ein Beispielaufbau ist [hier](Arduino_Simple_Dice/Dice Anschlussbeispiel.PNG) zu finden.
+Ein Beispielaufbau ist [hier](../Dice Anschlussbeispiel.PNG) zu finden.
