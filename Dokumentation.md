@@ -8,5 +8,6 @@ Wer dieses Projekt nachbauen will sollte erst sicherstellen, dass er die folgend
 - 1 Schalter oder Knopf
 - Kabel und Steckbrett
 
-1. Der Aufbau
-...
+## Der Aufbau
+
+Ein Beispielaufbau ist [hier](Arduino_Simple_Dice/Dice Anschlussbeispiel.PNG) zu finden.
