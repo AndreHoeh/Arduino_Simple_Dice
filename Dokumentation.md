@@ -31,3 +31,4 @@ Wenn die Bibliothek ordnungsgemäß eingefügt wurde erscheint nun unter
 das Programmbeispiel und kann eingefügt werden.
 Jetzt müssen nur noch die Pins auf die Pins mit den angeschlossenen LEDs geändert werden.
 Im Kommentar der Programmcodes ist aufgezeigt, in welcher Reihenfolge die LEDs angeschlossen werden müssen. 
+
