@@ -9,7 +9,9 @@
 This library includes simple methods to control LEDs in an dice like arragement. 
 
 == Step 1: Installation
-Simply drop this library folder into your Arduino librarys folder.
+
+- Download the library: https://github.com/AndreHoeh/Arduino_Simple_Dice/archive/master.zip
+- (In the Arduino IDE) Sketch > Include Library > Add .ZIP Library > select the downloaded file > Open
 
 == Step 2: Assemble the circuit
 
@@ -18,7 +20,8 @@ Every LED needs a resistor connected in series.
 
 == Step 3: Load the code
 
-Upload the code contained in this sketch on to your board.
+- File > Examples > Dice > SimpleDie
+- Upload the code contained in this sketch on to your board.
 
 === Contributing
 To contribute to this project please contact Andreh <andre.foxtrott@gmail.com>
